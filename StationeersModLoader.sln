@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelmetLockMod", "HelmetLockMod\HelmetLockMod.csproj", "{FAC0542A-A8D8-4966-ABBA-B900A5437029}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE} = {A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEModLoader", "SEModLoader\SEModLoader.csproj", "{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEPatcherLib", "SEPatcher\SEPatcherLib.csproj", "{57680C62-3FFA-4739-A165-F46473FC9789}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE} = {A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEPatcherConsole", "SEPatcherConsole\SEPatcherConsole.csproj", "{44E2B150-7FC1-4258-A19F-693D67B14D94}"
+	ProjectSection(ProjectDependencies) = postProject
+		{57680C62-3FFA-4739-A165-F46473FC9789} = {57680C62-3FFA-4739-A165-F46473FC9789}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Deploy|Any CPU = Deploy|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAC0542A-A8D8-4966-ABBA-B900A5437029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC0542A-A8D8-4966-ABBA-B900A5437029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC0542A-A8D8-4966-ABBA-B900A5437029}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{FAC0542A-A8D8-4966-ABBA-B900A5437029}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{FAC0542A-A8D8-4966-ABBA-B900A5437029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC0542A-A8D8-4966-ABBA-B900A5437029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A666F5D4-8C16-4D68-8C3C-ACB3A3A6DEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57680C62-3FFA-4739-A165-F46473FC9789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57680C62-3FFA-4739-A165-F46473FC9789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57680C62-3FFA-4739-A165-F46473FC9789}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{57680C62-3FFA-4739-A165-F46473FC9789}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{57680C62-3FFA-4739-A165-F46473FC9789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57680C62-3FFA-4739-A165-F46473FC9789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E2B150-7FC1-4258-A19F-693D67B14D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E2B150-7FC1-4258-A19F-693D67B14D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E2B150-7FC1-4258-A19F-693D67B14D94}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{44E2B150-7FC1-4258-A19F-693D67B14D94}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{44E2B150-7FC1-4258-A19F-693D67B14D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E2B150-7FC1-4258-A19F-693D67B14D94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70CD12A2-AFCA-454E-99F1-87FFAFDD511E}
+	EndGlobalSection
+EndGlobal
